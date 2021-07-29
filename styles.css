@@ -1,0 +1,77 @@
+.bgcol {
+  background-color: rgb(241, 244, 249);
+  border-radius: 10px;
+}
+aside {
+  float: right;
+}
+.bgside {
+  background-color: rgb(238, 242, 248);
+  border-radius: 15px;
+}
+.bgchat {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px -3px grey;
+}
+.bgwh {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 1px 2px 12px -3px grey;
+}
+.bottom {
+  height: 100px;
+}
+#video,
+#videosmall {
+  background: transparent url("taylor-heery-EI3VqTOgl3A-unsplash.jpg") 50% 50% /
+    cover no-repeat;
+  border-radius: 12px;
+}
+#myvideosmall {
+  border-radius: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+#myvideo {
+  position: absolute;
+  float: right;
+  right: 31rem;
+  top: 7.5rem;
+  left: 46.5rem;
+  border: 3px solid white;
+  border-radius: 12px;
+  z-index: 1;
+  /* background: transparent url("1.jpg") 50% 50% / cover no-repeat; */
+}
+.text {
+  z-index: 2;
+}
+.list-group {
+  overflow-y: scroll;
+  max-height: 130px;
+}
+#text {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.bttn {
+  transition: all 0.9s ease-in;
+}
+.bttn:hover {
+  transform: translate(1px, -12px);
+}
+.bttn:active {
+  transform: translate(2%, 1px);
+
+  /* border-radius: 5rem; */
+}
+.btn {
+  transition: all 0.9s ease-in;
+}
+.btn:active {
+  transform: translate(2%, 1px);
+}
+.chat {
+  overflow-y: scroll;
+}
